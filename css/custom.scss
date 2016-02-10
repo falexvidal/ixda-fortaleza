@@ -1,25 +1,16 @@
-$default-background-color: #fff;
-$default-grey-color: #585f66;
+$white: #fff;
+$dark-grey: #585f66;
+$medium-grey: #9e9898;
+$default-font: 'Open Sans', sans-serif;
+$secondary-font: 'Lato', sans-serif;
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900italic,900);
 
 body {
-    background-color:$default-background-color;
+    background-color:$white;
+    font-family:$default-font;
 }
 
-.ixda-logo {
-    display: block;
-    width:185px;
-    height:78px;
-    background: url(../img/logo-ixda.png) no-repeat;
-    margin:25px 0 25px 25px;
-}
-
-.top-bar {
-    .menu {
-        li {
-            a {
-                text-transform: uppercase;
-                color: $default-grey-color;
-            }
-        }
-    }
-}
+@import 'functions';
+@import 'top';

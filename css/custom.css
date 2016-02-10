@@ -1,16 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900italic,900);
 body {
   background-color: #fff;
+  font-family: "Open Sans", sans-serif;
 }
 
-.ixda-logo {
-  display: block;
-  width: 185px;
-  height: 78px;
-  background: url(../img/logo-ixda.png) no-repeat;
-  margin: 25px 0 25px 25px;
+.top-bar {
+  background-color: #fff;
 }
-
-.top-bar .menu li a {
+.top-bar ul {
+  background-color: #fff;
+}
+.top-bar ul li a {
   text-transform: uppercase;
   color: #585f66;
+  background-color: #fff;
+}
+.top-bar .top-bar-title {
+  margin: 25px 0 25px 25px;
+}
+.top-bar .top-bar-right {
+  margin: 25px 0;
+}
+.top-bar .top-bar-right input[type=search] {
+  width: 97%;
+  color: #9e9898;
+  text-transform: uppercase;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  padding: 0 0 0 40px;
+  background: url("../img/i-busca.png") no-repeat 10px;
+}
+.top-bar .menu li:first-child a {
+  padding-left: 0;
 }
