@@ -1,0 +1,25 @@
+$default-background-color: #fff;
+$default-grey-color: #585f66;
+
+body {
+    background-color:$default-background-color;
+}
+
+.ixda-logo {
+    display: block;
+    width:185px;
+    height:78px;
+    background: url(../img/logo-ixda.png) no-repeat;
+    margin:25px 0 25px 25px;
+}
+
+.top-bar {
+    .menu {
+        li {
+            a {
+                text-transform: uppercase;
+                color: $default-grey-color;
+            }
+        }
+    }
+}

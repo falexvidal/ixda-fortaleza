@@ -1,0 +1,16 @@
+body {
+  background-color: #fff;
+}
+
+.ixda-logo {
+  display: block;
+  width: 185px;
+  height: 78px;
+  background: url(../img/logo-ixda.png) no-repeat;
+  margin: 25px 0 25px 25px;
+}
+
+.top-bar .menu li a {
+  text-transform: uppercase;
+  color: #585f66;
+}
