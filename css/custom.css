@@ -16,7 +16,8 @@ body {
     margin: 25px 0 25px 25px; }
   .top-bar .top-bar-right {
     margin: 25px 0; }
-    .top-bar .top-bar-right input[type=search] {
+    .top-bar .top-bar-right input[type=search],
+	#tags	{
       width: 97%;
       color: #9e9898;
       text-transform: uppercase;
