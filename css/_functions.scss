@@ -18,3 +18,11 @@
     -moz-animation-duration:$length;
     -ms-animation-duration:$length;
 }
+
+
+@mixin animation-delay($length) {
+    animation-delay:$length;
+    -webkit-animation-delay:$length;
+    -moz-animation-delay:$length;
+    -ms-animation-delay:$length;
+}
