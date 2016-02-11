@@ -4,3 +4,17 @@
     -moz-border-radius:$value;
     -ms-border-radius:$value;
 }
+
+@mixin animation-name($name) {
+    animation-name:$name;
+    -webkit-animation-name:$name;
+    -moz-animation-name:$name;
+    -ms-animation-name:$name;
+}
+
+@mixin animation-duration($length) {
+    animation-duration:$length;
+    -webkit-animation-duration:$length;
+    -moz-animation-duration:$length;
+    -ms-animation-duration:$length;
+}

@@ -5,6 +5,14 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .top-bar {
   background-color: #fff;
 }
@@ -18,9 +26,25 @@ body {
 }
 .top-bar .top-bar-title {
   margin: 25px 0 25px 25px;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -ms-animation-name: fadeIn;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -ms-animation-duration: 3s;
 }
 .top-bar .top-bar-right {
   margin: 25px 0;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -ms-animation-name: fadeIn;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -ms-animation-duration: 3s;
 }
 .top-bar .top-bar-right input[type=search] {
   width: 97%;

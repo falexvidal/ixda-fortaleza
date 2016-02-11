@@ -1,3 +1,5 @@
+// Refining top-bar: logo, search and menu
+
 .top-bar {
     background-color:$white;
     ul {
@@ -12,10 +14,14 @@
     }
     .top-bar-title {
         margin:25px 0 25px 25px;
+        @include animation-name(fadeIn);
+        @include animation-duration(3s);
     }
     
     .top-bar-right {
         margin:25px 0;
+        @include animation-name(fadeIn);
+        @include animation-duration(3s);
         
         input[type=search] {
             width:97%;
@@ -44,6 +50,8 @@
     
 }
 
+
+// Refining Auto-Complete Elements
 
 .ui-widget-content {
     border:1px solid $medium-grey !important;
