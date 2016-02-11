@@ -20,18 +20,47 @@
         input[type=search] {
             width:97%;
             color: $medium-grey;
-            text-transform:uppercase;
             @include border-radius(10px);
             padding:0 0 0 40px;
             background:url("../img/i-busca.png") no-repeat 10px;
+            border:1px solid $medium-grey;
         }
-    }
-    
-    .menu {
-        li:first-child {
-            a {
-                padding-left:0;
+        
+        .menu {
+            li:first-child {
+                a {
+                    padding-left:0;
+                }
+            }
+            li {
+                a {
+                    &:hover {
+                        color:#05a4a7;
+                    }
+                }
             }
         }
     }
+    
+}
+
+
+.ui-widget-content {
+    border:1px solid $medium-grey !important;
+    background:$white;
+}
+        
+.ui-widget {
+    font-family:$default-font;
+    font-size:1em;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border:1px solid $light-grey;
+    background:$light-grey !important;
 }

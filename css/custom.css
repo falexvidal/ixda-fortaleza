@@ -2,32 +2,60 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900italic,900);
 body {
   background-color: #fff;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+}
 
 .top-bar {
-  background-color: #fff; }
-  .top-bar ul {
-    background-color: #fff; }
-    .top-bar ul li a {
-      text-transform: uppercase;
-      color: #585f66;
-      background-color: #fff; }
-  .top-bar .top-bar-title {
-    margin: 25px 0 25px 25px; }
-  .top-bar .top-bar-right {
-    margin: 25px 0; }
-    .top-bar .top-bar-right input[type=search],
-	#tags	{
-      width: 97%;
-      color: #9e9898;
-      text-transform: uppercase;
-      border-radius: 10px;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-      padding: 0 0 0 40px;
-      background: url("../img/i-busca.png") no-repeat 10px; }
-  .top-bar .menu li:first-child a {
-    padding-left: 0; }
+  background-color: #fff;
+}
+.top-bar ul {
+  background-color: #fff;
+}
+.top-bar ul li a {
+  text-transform: uppercase;
+  color: #585f66;
+  background-color: #fff;
+}
+.top-bar .top-bar-title {
+  margin: 25px 0 25px 25px;
+}
+.top-bar .top-bar-right {
+  margin: 25px 0;
+}
+.top-bar .top-bar-right input[type=search] {
+  width: 97%;
+  color: #9e9898;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  padding: 0 0 0 40px;
+  background: url("../img/i-busca.png") no-repeat 10px;
+  border: 1px solid #9e9898;
+}
+.top-bar .top-bar-right .menu li:first-child a {
+  padding-left: 0;
+}
+.top-bar .top-bar-right .menu li a:hover {
+  color: #05a4a7;
+}
 
-/*# sourceMappingURL=custom.css.map */
+.ui-widget-content {
+  border: 1px solid #9e9898 !important;
+  background: #fff;
+}
+
+.ui-widget {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border: 1px solid #ccd1d1;
+  background: #ccd1d1 !important;
+}
