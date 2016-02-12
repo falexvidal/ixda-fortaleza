@@ -5,6 +5,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.row {
+  max-width: 960px;
+}
+.row.main-features img {
+  width: 100%;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -97,4 +104,15 @@ body {
 .ui-widget-header .ui-state-focus {
   border: 1px solid #ccd1d1;
   background: #ccd1d1 !important;
+}
+
+.main-features {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -ms-animation-name: fadeIn;
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -ms-animation-duration: 3s;
 }
