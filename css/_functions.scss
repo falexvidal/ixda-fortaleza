@@ -5,6 +5,12 @@
     -ms-border-radius:$value;
 }
 
+@mixin box-shadow($value) {
+    -webkit-box-shadow: $value;
+    -moz-box-shadow: $value;
+    box-shadow: $value;
+}
+
 @mixin animation-name($name) {
     animation-name:$name;
     -webkit-animation-name:$name;

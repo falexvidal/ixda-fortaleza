@@ -8,9 +8,6 @@ body {
 .row {
   max-width: 960px;
 }
-.row.main-features img {
-  width: 100%;
-}
 
 @keyframes fadeIn {
   0% {
@@ -104,6 +101,22 @@ body {
 .ui-widget-header .ui-state-focus {
   border: 1px solid #ccd1d1;
   background: #ccd1d1 !important;
+}
+
+.main-features {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background: url(../img/bg-feaured) center;
+  padding: 15px 0;
+}
+.main-features img {
+  width: 100%;
+}
+.main-features img:hover {
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
 }
 
 .main-features {

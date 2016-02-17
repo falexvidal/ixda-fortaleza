@@ -16,17 +16,12 @@ body {
 
 .row {
     max-width:960px;
-    
-    &.main-features {
-        img {
-            width:100%;
-        }
-    }
 }
 
 @import 'functions';
 @import 'animations';
 @import 'top';
+@import 'featured';
 
 .main-features {
     @include animation-name(fadeIn);

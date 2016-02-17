@@ -1,0 +1,14 @@
+.main-features {
+    width:100%;
+    display: block;
+    margin:0 auto;
+    background: url(../img/bg-feaured) center;
+    padding: 15px 0;
+    
+        img {
+            width:100%;
+            &:hover {
+                @include box-shadow(0 0 10px 1px rgba(0,0,0,0.5));
+            }
+        }
+}
